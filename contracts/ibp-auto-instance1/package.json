@@ -6,10 +6,7 @@
   "version": "0.0.1",
   "description": "Anthony's Auto Auction Demo for Dreamforce 2018 - Instance 1",
   "scripts": {
-    "prepublish": "mkdirp ./dist && composer archive create --sourceType dir --sourceName . -a ./dist/ibpautoinstance1.bna",
-    "pretest": "npm run lint",
-    "lint": "eslint .",
-    "test": "nyc mocha -t 0 test/*.js && cucumber-js"
+    "prepublish": "mkdirp ./dist && composer archive create --sourceType dir --sourceName . -a ./dist/ibpautoinstance1.bna"
   },
   "keywords": [
     "composer",
