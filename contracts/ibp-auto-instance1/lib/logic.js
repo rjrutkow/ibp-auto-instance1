@@ -111,6 +111,6 @@ function makeOffer(offer) {
         	return vehicleListingRegistry.update(listing);
     	})
   		.then(function() {
-	    	return post( 'https://redundancyuk.eu-gb.mybluemix.net/winner', listing, {permitResourcesForRelationships: true, deduplicateResources: true});
+	    	return post( 'https://redundancyuk.eu-gb.mybluemix.net/compute', listing, {permitResourcesForRelationships: true, deduplicateResources: true});
     	});
 }
